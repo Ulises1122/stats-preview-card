@@ -23,35 +23,93 @@ strong{
 .contenedor{
     display: block;
     position: relative;
-    width: 80%;
+    width: 70%;
     height: 350px;
     margin: auto;
     top: 150px;
-    /* border: 2px black solid; */
+    /* border: 3px black solid; */
     border-radius: 8px;
     background-color: hsl(244, 38%, 16%);
 }
 .subcontenedor{
     display: inline-block;
     position: absolute;
-    border: 2px black solid;
+    /* border: 3px black solid; */
     width: 50%;
-    height: 350px;
+    height: 100%;
     left: 0;
 }
-
-.tituloTarjeta, .stats1{
+.subcontenedor1{
+    /* border: 1px white solid; */
+    height: 50%;
+    width: 80%;
+    margin: auto;
+}
+.subcontenedor2{
+    /* border: 1px green solid; */
+    height: 50%;
+}
+.tituloTarjeta{
     color: hsl(0, 0%, 100%);
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-}
-.stats2{
-    color: hsla(0, 0%, 100%, 0.6);
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
+    /* border: 1px blue solid; */
+    height: 50%;
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
 .parrafo{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    /* border: 1px turquoise solid; */
+    height: 50%;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.allStats{
+    display: block;
+    /* border: 1px red solid; */
+    /* margin: auto; */
+    height: 50%;
+    width: 80%;
+    margin: auto;
+}
+.stats1, .stats2, .stats3{
+    display: inline-block;
+    /* border: 1px yellow solid; */
+    height: 100%;
+    text-align: left;
+    position: relative;
+    top: 30px;
+}
+.stats1{
+    left: 20px;
+}
+.stats2{
+    left: 55px;
+}
+.stats3{
+    left: 90px;
+}
+.stats1A, .stats2A, .stats3A{
+    display: block;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    /* border: 1px red solid; */
+    height: 50%;
+}
+.stats1B, .stats2B, .stats3B{
+    display: block;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    /* border: 1px blue solid; */
+    height: 50%;
+    position: relative;
+    bottom: 25px;
+    letter-spacing: 0.1rem;
 }
